@@ -1,0 +1,7 @@
+<launch>
+    <arg name="image_topic" default="/image_raw" />
+
+    <node name="colorgui" pkg="cmvision" type="colorgui"  output="screen">
+        <remap from="image" to="$(arg image_topic)"/>
+    </node>
+</launch>

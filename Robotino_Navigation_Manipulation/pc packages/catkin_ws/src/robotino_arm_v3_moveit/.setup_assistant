@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robotino_arm_v2_udf
+    relative_path: urdf/robotino_arm_v3_udf.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/robotino_arm_v2_udf.srdf
+  CONFIG:
+    author_name: Hussein Harb
+    author_email: husseinm-harb@outlook.com
+    generated_timestamp: 1650032628

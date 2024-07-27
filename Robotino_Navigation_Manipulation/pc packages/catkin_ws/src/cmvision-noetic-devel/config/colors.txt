@@ -1,0 +1,20 @@
+# Specify Thresholds fol blob detection and Colors for marking the blobs in the window in debug mode
+# You can add multiple Thresholds/Colors
+# Each Threshold corresponds to each Color in the specified order
+
+[Thresholds]
+#( 157:163, 145:151 )
+#( 131:138, 88:101 )
+( 90:104, 140:165 ) 
+( 110:117, 172:201 ) #yellow color
+( 151:166, 164:181 ) #red
+#( 143:161, 63:94 ) #blue
+( 133:156, 67:112 ) #blue
+
+[Colors]
+#(255, 0, 0)   0.000000 10 Red
+#(0, 0, 255)   0.000000 10 Blue
+(87, 127, 83) 0.000000 10 green
+(150, 148, 58) 0.000000 10 yellow
+(255, 0, 0)   0.000000 10 Red
+(0, 0, 255)   0.000000 10 Blue
